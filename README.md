@@ -1,3 +1,17 @@
+# practice-fetch-api
+
+## Description
+
+  - I found this cool cocktail api and wanted to do something with it https://www.thecocktaildb.com/api.php
+  - Call the api get drink name and images on one card and then on the second card get ingredients and directions 
+  - I have used foundations before but this my first time actually using bootstrap
+
+## ScreenShot
+
+![Screen Shot 2022-07-13 at 11 06 40 AM](https://user-images.githubusercontent.com/20430905/178772288-a056daae-2500-415c-bdb5-6629ee8ac255.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
