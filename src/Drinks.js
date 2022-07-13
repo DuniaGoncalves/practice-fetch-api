@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 
 const Drinks = ({margarita}) => {
+  // I thought I would be able to toggle just using bootstrap but I was wrong. Not sure if it's 100% correct but it works but I wanted to add show to class when button clicked and remove it when clicked again
   const [open, setOpen] = useState();
   const show = open ? "show" : "" ;
   
@@ -29,6 +30,7 @@ const Drinks = ({margarita}) => {
         <div className="card text-bg-info">
           <h5 className="card-header">{margarita.strDrink}</h5>
           <ul className="list-group list-group-flush">
+            {/* Something I would have to think about here since some recipes have more ingredients map would be useful and possibly fetching api again by id to get all ingredients */}
             <li className="list-group-item">{margarita.strMeasure1 +' '+ margarita.strIngredient1}</li>
             <li className="list-group-item">{margarita.strMeasure2 +' '+ margarita.strIngredient2}</li>
             <li className="list-group-item">{margarita.strMeasure3 +' '+ margarita.strIngredient3}</li>
